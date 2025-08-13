@@ -18,14 +18,16 @@ This guide covers deploying your AKora.dev blog to various hosting platforms.
    - Connect your GitHub repository
 
 2. **Build Settings**
-   ```
+
+   ```text
    Build command: npm run build
    Publish directory: dist
    Node version: 18
    ```
 
 3. **Environment Variables**
-   ```
+
+   ```text
    SITE_URL=https://akora.dev
    ```
 
@@ -68,7 +70,8 @@ git push origin main
    - Import your GitHub repository
 
 2. **Build Settings**
-   ```
+
+   ```text
    Framework Preset: Astro
    Build Command: npm run build
    Output Directory: dist

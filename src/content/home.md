@@ -1,7 +1,7 @@
 ---
 avatarImage:
   src: './avatar.jpg'
-  alt: 'Akora avatar'
+  alt: 'AKora avatar'
 githubCalendar: 'akora'
 ---
 
