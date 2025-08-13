@@ -9,7 +9,7 @@ const config: SiteConfig = {
   description:
     'Software developer blog featuring technical tutorials, project showcases, and development insights',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Akora',
+  author: 'AKora',
   // Keywords for SEO, used in the meta tags.
   tags: ['Software Development', 'Programming', 'Technical Tutorials', 'Project Showcases', 'Web Development'],
   // Path to the image used for generating social media previews.
@@ -18,7 +18,7 @@ const config: SiteConfig = {
   socialCardAvatarImage: './src/content/avatar.jpg',
   // Font imported from @fontsource or elsewhere, used for the entire site.
   // To change this see src/styles/global.css and import a different font.
-  font: 'JetBrains Mono Variable',
+  font: 'Inter',
   // For pagination, the number of posts to display per page.
   pageSize: 5,
   // The navigation links to display in the header.
@@ -38,6 +38,11 @@ const config: SiteConfig = {
     {
       name: 'GitHub',
       url: 'https://github.com/akora',
+      external: true,
+    },
+    {
+      name: 'AndrasKora.com',
+      url: 'https://andraskora.com',
       external: true,
     },
   ],
@@ -122,11 +127,11 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: 'https://github.com/akora',
-    mastodon: undefined, // Set your Mastodon URL here if you have one
-    email: undefined, // Set your email here if you want to display it
-    linkedin: undefined, // Set your LinkedIn URL here if you have one
-    bluesky: undefined, // Set your Bluesky URL here if you have one
-    twitter: undefined, // Set your Twitter URL here if you have one
+    mastodon: 'https://mastodon.social/@akora', // Set your Mastodon URL here if you have one
+    email: 'ak@akora.info', // Set your email here if you want to display it
+    linkedin: 'https://www.linkedin.com/in/andraskora/', // Set your LinkedIn URL here if you have one
+    bluesky: 'https://bsky.app/profile/andraskora.bsky.social', // Set your Bluesky URL here if you have one
+    twitter: 'https://x.com/AndrasKora', // Set your Twitter URL here if you have one
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.

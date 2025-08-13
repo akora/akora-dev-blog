@@ -3,4 +3,12 @@ layout: '@layouts/MarkdownLayout.astro'
 title: About Me
 ---
 
-The laughing kookaburra (Dacelo novaeguineae) is a bird in the kingfisher subfamily Halcyoninae. It is a large robust kingfisher with a whitish head and a brown eye-stripe. The upperparts are mostly dark brown but there is a mottled light-blue patch on the wing coverts. The underparts are cream-white and the tail is barred with rufous and black. The plumage of the male and female birds is similar. The territorial call is a distinctive laugh that is often delivered by several birds at the same time, and is widely used as a stock sound effect in situations that involve a jungle setting.
+👋 Hi, I’m @akora, an IT enthusiast who uses this space to showcase a variety of personal projects. My focus is on hands-on exploration and creating practical solutions that leverage modern technologies.
+
+👀 I’m particularly interested in web content management systems, with a primary focus on modern platforms like Drupal and Ghost. I'm also passionate about Infrastructure as Code (IaC) and containerization for building automated, scalable, and portable applications.
+
+🌱 I'm currently expanding my skillset by diving deeper into Terraform for infrastructure provisioning and Ansible for configuration management. My goal is to use these tools to create fully automated, repeatable environments and workflows for my personal and professional projects.
+
+🤖 I'm extensively integrating AI coding assistants into my workflow. These tools help me accelerate development by generating boilerplate code, refactoring existing scripts, and providing explanations for complex functions. This allows me to learn new technologies faster and focus on the architectural challenges of my projects.
+
+📫 You can find more of my work and get in touch with me on my personal website: [https://andraskora.com](https://andraskora.com). Feel free to connect there to discuss my projects or any shared interests.

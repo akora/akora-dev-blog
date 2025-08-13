@@ -306,3 +306,14 @@ const height = labelHeight + (blockSize + blockMargin) * 7 - blockMargin
     )
   }
 </article>
+
+<script>
+  // Auto-scroll to show most recent activities
+  document.addEventListener('DOMContentLoaded', () => {
+    const scrollContainer = document.querySelector('#github-activity-calendar .overflow-x-auto')
+    if (scrollContainer) {
+      // Scroll to the right (most recent activities)
+      scrollContainer.scrollLeft = scrollContainer.scrollWidth - scrollContainer.clientWidth
+    }
+  })
+</script>

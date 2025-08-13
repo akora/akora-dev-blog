@@ -20,5 +20,11 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# VS Code personal settings (keep project settings in .vscode/)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.vscode/keybindings.json
+
 # jetbrains setting folder
 .idea/
