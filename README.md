@@ -44,6 +44,51 @@ All commands are run from the root of the project:
 | `npm run preview`      | Preview build locally before deploying          |
 | `npm run format`       | Format code with Prettier                       |
 
+## Daily Workflow Commands
+
+### Development Workflow
+
+```bash
+# Start development server
+npm run dev
+
+# Make changes to your blog
+# ... edit content, add posts, customize theme ...
+
+# Commit changes
+git add .
+git commit -m "Add new blog post about X"
+
+# Push to both repositories
+git push origin main    # Push to homelab Gitea (primary)
+git push github main    # Push to GitHub (public/Netlify)
+
+# Or push to both at once
+git push origin main && git push github main
+```
+
+### Content Creation Workflow
+
+```bash
+# Create new blog post
+touch src/content/posts/my-new-post.md
+
+# Edit the post with your content
+# Add frontmatter and markdown content
+
+# Test locally
+npm run dev
+
+# Build and preview
+npm run build
+npm run preview
+
+# Commit and deploy
+git add .
+git commit -m "Add post: My New Post"
+git push origin main && git push github main
+```
+
 ## Content Management
 
 ### Creating New Posts
