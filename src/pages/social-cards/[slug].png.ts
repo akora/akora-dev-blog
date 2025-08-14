@@ -78,7 +78,7 @@ export async function GET(context: APIContext) {
   const { pubDate, title, author } = context.props as Props
   const svg = await satori(markup(title, pubDate, author) as ReactNode, ogOptions)
   const png = new Resvg(svg).render().asPng()
-  return new Response(png, {
+  return new Response(png as BodyInit, {
     headers: {
       'Cache-Control': 'public, max-age=31536000, immutable',
       'Content-Type': 'image/png',

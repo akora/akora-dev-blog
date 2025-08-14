@@ -83,7 +83,7 @@ button {
 }
 
 article img {
-  @apply block max-w-full border-8 border-foreground/10 rounded-xl overflow-hidden mx-auto;
+  @apply block max-w-full rounded-xl overflow-hidden mx-auto;
 
   &[pixelated='true'] {
     image-rendering: pixelated;
