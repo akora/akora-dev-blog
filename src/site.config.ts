@@ -7,7 +7,7 @@ const config: SiteConfig = {
   title: 'AKora.dev',
   // The description of your site, used for SEO and RSS feed.
   description:
-    'Software developer blog featuring technical tutorials, project showcases, and development insights',
+    'Software developer blog featuring technical tutorials, project showcases, and development insights - Updated 2025',
   // The author of the site, used in the footer, SEO, and RSS feed.
   author: 'AKora',
   // Keywords for SEO, used in the meta tags.
